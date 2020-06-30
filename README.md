@@ -1,2 +1,2 @@
 83-cms
-Uwaga zmiana 2
+Uwaga zmiana 3 
