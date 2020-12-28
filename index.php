@@ -10,7 +10,6 @@
 <div class="container">            
     <div class="row">
         <!-- Blog Entries Column -->
-            
         <?php 
             $query = "SELECT * FROM posts";
             $select_all_posts_query = mysqli_query($connection,$query);
@@ -48,8 +47,6 @@
                 <a class="btn btn-primary" href="#">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
 
                 <hr>
-             
-
                 <!-- Pager -->
                 <ul class="pager">
                     <li class="previous">
@@ -64,16 +61,11 @@
                 
      
       <?php } ?>
-           
                 <!-- Blog Sidebar Widgets Column -->
-                <?php include "includes/sidebar.php" ?>       
-           
+                <?php include "includes/sidebar.php" ?>   
 
-           
-
-        </div>
+    </div>
         <!-- /.row -->
-                        
         <hr>
         <!-- Footer -->
         <?php include "includes/footer.php" ?>
