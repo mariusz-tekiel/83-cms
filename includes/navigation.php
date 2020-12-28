@@ -14,16 +14,16 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
 
-               <?php 
-                  $query = "SELECT * FROM categories";
-                  $select_all_category_query = mysqli_query($connection,$query);
+                    <?php 
+                        $query = "SELECT * FROM categories";
+                        $select_all_category_query = mysqli_query($connection,$query);
 
-                  while($row=mysqli_fetch_assoc($select_all_category_query))
-                  {
-                        $cat_title = $row['cat_title'];
-                        echo "<li><a href='#'>{$cat_title}</a></li>";
-                  }
-               ?>
+                        while($row=mysqli_fetch_assoc($select_all_category_query))
+                        {
+                                $cat_title = $row['cat_title'];
+                                echo "<li><a href='#'>{$cat_title}</a></li>";
+                        }
+                    ?>
 
 
                     <!-- <li>
